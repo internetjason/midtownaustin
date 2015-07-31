@@ -98,7 +98,12 @@ h1, h2, h3 {
     height: 300px;
 }
 
-#new .icon-box .btn {
+#getconnected .equal-height {
+    height: 280px;
+    margin-top: 20px;
+}
+
+#new .icon-box .btn, #getconnected .equal-height .btn {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -217,6 +222,11 @@ nav.shrink .navbar-toggle {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (max-width: 1200px) {
+    h4 {
+        font-size: 24px;
+    }
+}
 
 @media (max-width: 992px) {
     .navbar-brand img {
@@ -251,6 +261,7 @@ nav.shrink .navbar-toggle {
         font-size: 15px;
         line-height: 1.4;
     }
+
 }
 
 @media (max-width: 768px) {
