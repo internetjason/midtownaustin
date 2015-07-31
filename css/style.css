@@ -174,7 +174,13 @@ nav.shrink .navbar-toggle {
     background-size: cover;
 }
 .first-slide {
-    background: url(../img/bryker-woods-midtown-chuch-austin-sunday-mornings.png) no-repeat center center;
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.25),
+            rgba(255, 255, 255, 0.25)
+        ),
+        url(../img/bryker-woods-midtown-chuch-austin-sunday-mornings.png)
+        no-repeat center center;
 }
 
 .carousel-caption {
@@ -210,16 +216,20 @@ nav.shrink .navbar-toggle {
 }
 
 .footer {
-    background-color: #333;
-    color: #8498A3;
+    background-color: #156D66;
+    color: #efefef;
     text-transform: uppercase;
     font-family: "BazarMedium";
-    font-size: 2.3rem;
+    font-size: 2.6rem;
+    -moz-text-shadow: 1px 1px 0px #333, 1px 2px 1px #aaa;
+    -ms-text-shadow: 1px 1px 0px #333, 1px 2px 1px #aaa;
+    -o-text-shadow: 1px 1px 0px #333, 1px 2px 1px #aaa;
+    text-shadow: 1px 1px 0px #333, 1px 2px 1px #aaa;
 }
 
 .footer span {
     color: white;
-    font-size: 2.7rem;
+    font-size: 2.9rem;
 }
 
 /* RESPONSIVE CSS

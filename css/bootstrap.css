@@ -3840,8 +3840,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 .navbar-inverse {
-  background-color: rgba(37, 169, 156, 0.78);
-  border-color: rgba(31, 142, 131, 0.78);
+    background-color: rgba(21, 109, 102, 0.74);
+    border-color: rgba(21, 109, 102, 0.88);
 }
 .navbar-inverse .navbar-brand {
   color: #ffffff;
