@@ -133,6 +133,7 @@ h1, h2, h3 {
 }
 
 .navbar-brand img {
+    height: 290px;
     max-height: 130px;
     margin-top: -55px;
 }
@@ -147,6 +148,7 @@ nav.shrink a {
 }
 
 nav.shrink .navbar-brand img {
+    height: 290px;
     max-height: 70px;
     margin-top: -25px;
 }
