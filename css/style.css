@@ -154,8 +154,8 @@ nav.shrink .navbar-brand img {
 }
 
 nav.shrink .navbar-toggle {
-    padding: 4px 5px;
-    margin: 8px 15px 8px 0;
+    padding: 8px 8px;
+    margin: 24px 15px 8px 0;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -267,6 +267,18 @@ nav.shrink .navbar-toggle {
 }
 
 @media (max-width: 768px) {
+    .navbar-brand img {
+        max-height: 70px;
+        margin-top: -60px;
+    }
+    .navbar {
+        min-height: 80px;
+        max-height: 80px;
+    }
+    .navbar-toggle {
+        margin-top: 23px;
+    }
+
     .carousel-inner .item {
         height: 300px;
     }
