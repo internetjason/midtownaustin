@@ -1,3 +1,12 @@
+/*
+COLOR PALETTE
+
+Dark Teal: #156D66
+Light Teal: #00A89D
+Light Gray: #8498A3
+
+*/
+
 /* BazarMedium Font */
 @font-face {
     font-family: "BazarMedium";
@@ -114,10 +123,12 @@ h1, h2, h3 {
 
 .footer {
     background-color: #156D66;
-    color: #efefef;
+    color: #eee;
     text-transform: uppercase;
-    font-family: "BazarMedium";
-    font-size: 2.6rem;
+    font-family: "Open Sans Condensed";
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    letter-spacing: -0.1rem;
     -moz-text-shadow: 1px 1px 0px #333, 1px 2px 1px #aaa;
     -ms-text-shadow: 1px 1px 0px #333, 1px 2px 1px #aaa;
     -o-text-shadow: 1px 1px 0px #333, 1px 2px 1px #aaa;
@@ -125,8 +136,8 @@ h1, h2, h3 {
 }
 
 .footer span {
-    color: white;
-    font-size: 2.9rem;
+    color: #fff;
+    font-size: 4.2rem;
 }
 
 /* CUSTOMIZE THE NAVBAR
