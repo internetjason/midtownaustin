@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=e426b6adf7a0f8fd6524)
- * Config saved to config.json and https://gist.github.com/e426b6adf7a0f8fd6524
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=1f95e8e157bf04d623aa)
+ * Config saved to config.json and https://gist.github.com/1f95e8e157bf04d623aa
  */
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -3467,7 +3467,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
-  max-height: 340px;
+  max-height: 440px;
 }
 @media (max-device-width: 480px) and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse,
@@ -3840,8 +3840,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 .navbar-inverse {
-    background-color: rgba(21, 109, 102, 0.74);
-    border-color: rgba(21, 109, 102, 0.88);
+  background-color: rgba(21, 109, 102, 0.74);
+  border-color: rgba(16, 81, 76, 0.74);
 }
 .navbar-inverse .navbar-brand {
   color: #ffffff;
@@ -3866,7 +3866,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #f9f9f9;
-  background-color: rgba(28, 127, 117, 0.78);
+  background-color: rgba(13, 66, 62, 0.74);
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -3886,20 +3886,20 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: rgba(31, 140, 129, 0.78);
+  border-color: rgba(15, 79, 74, 0.74);
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: rgba(28, 127, 117, 0.78);
+  background-color: rgba(13, 66, 62, 0.74);
   color: #f9f9f9;
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: rgba(31, 142, 131, 0.78);
+    border-color: rgba(16, 81, 76, 0.74);
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: rgba(31, 142, 131, 0.78);
+    background-color: rgba(16, 81, 76, 0.74);
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #ffffff;
@@ -3913,7 +3913,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #f9f9f9;
-    background-color: rgba(28, 127, 117, 0.78);
+    background-color: rgba(13, 66, 62, 0.74);
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,

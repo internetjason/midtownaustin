@@ -145,7 +145,7 @@
     "@navbar-border-radius": "@border-radius-base",
     "@navbar-padding-horizontal": "floor((@grid-gutter-width / 2))",
     "@navbar-padding-vertical": "((@navbar-height - @line-height-computed) / 2)",
-    "@navbar-collapse-max-height": "340px",
+    "@navbar-collapse-max-height": "440px",
     "@navbar-default-color": "#444",
     "@navbar-default-bg": "rgba(248, 248, 248, 0.82)",
     "@navbar-default-border": "darken(@navbar-default-bg, 6.5%)",
@@ -163,7 +163,7 @@
     "@navbar-default-toggle-icon-bar-bg": "#444",
     "@navbar-default-toggle-border-color": "#ddd",
     "@navbar-inverse-color": "#fff",
-    "@navbar-inverse-bg": "rgba(37, 169, 156, 0.78)",
+    "@navbar-inverse-bg": "rgba(21, 109, 102, 0.74)",
     "@navbar-inverse-border": "darken(@navbar-inverse-bg, 6.5%)",
     "@navbar-inverse-link-color": "#fff",
     "@navbar-inverse-link-hover-color": "#efefef",
@@ -429,5 +429,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=e426b6adf7a0f8fd6524"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=1f95e8e157bf04d623aa"
 }
