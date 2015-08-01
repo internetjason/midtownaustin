@@ -44,12 +44,15 @@ p {
 }
 
 h1, h2, h3 {
+    font-family: "Open Sans Condensed";
+    text-transform: uppercase;
+}
+
+.shadow-text {
     -moz-text-shadow: 1px 1px 0px #fff, 1px 2px 1px #333;
     -ms-text-shadow: 1px 1px 0px #fff, 1px 2px 1px #333;
     -o-text-shadow: 1px 1px 0px #fff, 1px 2px 1px #333;
     text-shadow: 1px 1px 0px #fff, 1px 2px 1px #333;
-    font-family: "BazarMedium";
-    text-transform: uppercase;
 }
 
 .h-gray {
@@ -166,22 +169,25 @@ h1, h2, h3 {
 
 nav.navbar.shrink, .shrink .dropdown {
     min-height: 35px;
-    max-height: 80px;
 }
 
-nav.shrink a {
-    padding-top: 29px;
-}
-
-nav.shrink .navbar-brand img {
-    height: 290px;
-    max-height: 70px;
-    margin-top: -25px;
+.shrink .navbar-nav > li > a {
+    padding-top: 33.5px;
+    padding-bottom: 33.5px;
 }
 
 nav.shrink .navbar-toggle {
     padding: 8px 8px;
     margin: 24px 15px 8px 0;
+}
+.shrink .navbar-brand {
+    padding: 22px 10px;
+    height: 90px;
+}
+nav.shrink .navbar-brand img {
+    height: 290px;
+    max-height: 70px;
+    margin-top: -13px;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -216,7 +222,7 @@ nav.shrink .navbar-toggle {
 
 .carousel-caption h2 {
     font-size: 5.0rem;
-    font-family: "Lobster";
+    font-family: "Open Sans Condensed";
     text-transform: none;
 }
 
@@ -254,19 +260,16 @@ nav.shrink .navbar-toggle {
     nav.navbar, .dropdown {
         min-height: 35px;
     }
-
     .navbar-nav > li > a {
         font-size: 14px;
         padding-top: 38.5px;
         padding-bottom: 38.5px;
     }
-
     nav .navbar-brand img {
         height: 290px;
         max-height: 80px;
         margin-top: -14px;
     }
-
     .navbar-brand {
         padding: 22px 10px;
         height: 90px;
@@ -290,16 +293,23 @@ nav.shrink .navbar-toggle {
         font-size: 15px;
         line-height: 1.4;
     }
+    .footer {
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+    }
 
+    .footer span {
+        font-size: 2.8rem;
+    }
 }
 
 @media (max-width: 768px) {
     /* Navbar */
-    nav .navbar-toggle {
+    nav .navbar-toggle, nav.shrink .navbar-toggle {
         padding: 8px 8px;
         margin: 26.5px 15px 0px 0;
     }
-    .navbar-nav > li > a {
+    .navbar-nav > li > a, .shrink .navbar-nav > li > a {
         padding-top: 10px;
         padding-bottom: 10px;
         line-height: 19px;
