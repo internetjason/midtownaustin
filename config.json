@@ -31,7 +31,7 @@
     "@font-size-h6": "ceil((@font-size-base * 1.2))",
     "@line-height-base": "1.4",
     "@line-height-computed": "floor((@font-size-base * @line-height-base))",
-    "@headings-font-family": "\"Lobster\", Helvetica, Arial",
+    "@headings-font-family": "\"Homenaje\", Helvetica, Arial",
     "@headings-font-weight": "normal",
     "@headings-line-height": "1.1",
     "@headings-color": "#156D66",
@@ -429,5 +429,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=1f95e8e157bf04d623aa"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=23e221128651b066e061"
 }
