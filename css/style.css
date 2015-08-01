@@ -27,6 +27,33 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+/* Horizontal Lines On Headings */
+.h-lines {
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+}
+
+.h-lines:before, .h-lines:after {
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 80px;
+}
+.h-lines:before {
+    right: 100%;
+}
+.h-lines:after {
+    left: 100%;
+}
+
+/* Heading Line Colors */
+.hl-1:before, .hl-1:after { background: #8498A3; }
+.hl-2:before, .hl-2:after { background: #156D66; }
+.hl-3:before, .hl-3:after { background: #00A89D; }
+
 .shadow-text  {
     -moz-text-shadow: 1px 1px 0px #fff, 1px 2px 1px #333;
     -ms-text-shadow: 1px 1px 0px #fff, 1px 2px 1px #333;
