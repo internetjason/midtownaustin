@@ -40,7 +40,7 @@ h1, h2, h3 {
     height: 1px;
     position: absolute;
     top: 50%;
-    width: 80px;
+    width: 10vw;
 }
 .h-lines:before {
     right: 100%;
