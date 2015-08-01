@@ -52,7 +52,7 @@ h1, h2, h3 {
 /* Heading Line Colors */
 .hl-1:before, .hl-1:after { background: #8498A3; }
 .hl-2:before, .hl-2:after { background: #156D66; }
-.hl-3:before, .hl-3:after { background: #00A89D; }
+.hl-3:before, .hl-3:after { background: #fff; }
 
 .shadow-text  {
     -moz-text-shadow: 1px 1px 0px #fff, 1px 2px 1px #333;
@@ -67,6 +67,15 @@ h1, h2, h3 {
 
 .bg-light-gray {
     background-color: #f7f7f7;
+}
+
+.bg-dark-teal {
+    background-color: #156D66;
+    color: #fff;
+}
+.bg-dark-teal h2, .bg-dark-teal h3,
+.bg-dark-teal h4, .bg-dark-teal h5 {
+    color:white;
 }
 
 .get-connected > .col-sm-4 {
