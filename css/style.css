@@ -138,6 +138,7 @@ h1, h2, h3 {
     right: 0;
     left: 0;
     z-index: 20;
+    margin: 0 10px;
 }
 
 .nav > li {
@@ -237,37 +238,21 @@ nav.shrink .navbar-toggle {
 }
 
 @media (max-width: 992px) {
-
-    .navbar-nav > li > a {
-        font-size: 14px;
-    }
-
-    .navbar {
-        min-height: 80px;
-    }
-
+    /* Navbar */
     nav.navbar, .dropdown {
         min-height: 35px;
     }
 
-    nav a {
-        padding-top: 29px;
-    }
-
     .navbar-nav > li > a {
+        font-size: 14px;
         padding-top: 38.5px;
         padding-bottom: 38.5px;
-    }
-
-    .navbar-text {
-        margin-top: 38.5px;
-        margin-bottom: 38.5px;
     }
 
     nav .navbar-brand img {
         height: 290px;
         max-height: 80px;
-        margin-top: -17px;
+        margin-top: -14px;
     }
 
     .navbar-brand {
@@ -275,20 +260,7 @@ nav.shrink .navbar-toggle {
         height: 90px;
     }
 
-    nav .navbar-toggle {
-        padding: 8px 8px;
-        margin: 24px 15px 8px 0;
-    }
-
-    .navbar-fixed-top .navbar-collapse,
-    .navbar-fixed-bottom .navbar-collapse {
-        max-height: 440px;
-    }
-
-    .dropdown {
-        max-height: 110px;
-    }
-
+    /* Carousel */
     .carousel-inner .item {
         height: 400px;
     }
@@ -299,6 +271,7 @@ nav.shrink .navbar-toggle {
     .carousel-caption h2 {
         font-size: 3.5rem;
     }
+    /* /. Carousel End */
 
     .btn-lg, .btn-group-lg > .btn {
         padding: 8px 10px;
@@ -309,17 +282,18 @@ nav.shrink .navbar-toggle {
 }
 
 @media (max-width: 768px) {
-/*
-    .navbar-brand img {
-        max-height: 70px;
-        margin-top: -60px;
+    /* Navbar */
+    nav .navbar-toggle {
+        padding: 8px 8px;
+        margin: 26.5px 15px 0px 0;
     }
-    .navbar {
-        min-height: 80px;
-        max-height: 80px;
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 19px;
     }
-*/
 
+    /* Carousel */
     .carousel-inner .item {
         height: 300px;
     }
@@ -330,6 +304,7 @@ nav.shrink .navbar-toggle {
     .carousel-caption h2 {
         font-size: 2.6rem;
     }
+    /* /. Carousel End */
 
     .btn-lg, .btn-group-lg > .btn {
         padding: 4px 6px;
