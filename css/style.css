@@ -219,8 +219,17 @@ nav.shrink .navbar-brand img {
             rgba(255, 255, 255, 0.25),
             rgba(255, 255, 255, 0.25)
         ),
-        url(../img/bryker-woods-midtown-chuch-austin-sunday-mornings.png)
+        url(../img/central-austin-church-sunday-morning.jpg)
         no-repeat center center;
+}
+.second-slide {
+    background: url(../img/midtown-church-austin-hill-country-central-merger.png) no-repeat center center;
+}
+.second-slide .btn {
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    right: 30%;
 }
 
 .carousel-caption {

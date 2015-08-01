@@ -83,6 +83,7 @@
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active first-slide">
@@ -92,6 +93,11 @@
                             <a class="btn btn-lg btn-warning btn-desktop" href="#" role="button">Click here for a map and other Sunday morning info...</a>
                             <a class="btn btn-lg btn-warning btn-mobile" href="#" role="button">Click here for more info...</a>
                         </p>
+                    </div>
+                </div>
+                <div class="item second-slide">
+                    <div class="carousel-caption">
+                        <a href="#" class="btn btn-default">Learn More About the Merger</a>
                     </div>
                 </div>
             </div>
@@ -272,5 +278,14 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/custom.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(function () {
+                    $('#myCarousel').carousel({
+                        interval: 8000
+                    });
+                });
+            });
+        </script>
     </body>
 </html>
