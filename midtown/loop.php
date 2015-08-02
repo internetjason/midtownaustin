@@ -28,10 +28,10 @@
 			<?php $firstClass = ""; ?>
 			<?php ?>
                 <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( '%s' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">
-                	<h2><?php the_title(); ?></h2>
+                	<h4><?php the_title(); ?></h4>
                 </a>
                 <?php the_excerpt(); ?>
-                <p class="entry-meta"><time datetime="<?php the_time('l, F jS, Y') ?>" pubdate><?php the_time('l jS F Y') ?></time></p>
+            <div class="entry-meta"><i class="fa fa-calendar"></i> <time datetime="<?php the_time('l, F jS, Y') ?>" pubdate><?php the_time('l jS F Y') ?></time></div>
 		</article>
 
 		<?php comments_template( '', true ); ?>
