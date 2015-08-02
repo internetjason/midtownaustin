@@ -43,7 +43,7 @@
                 <strong>Location</strong>: 7121 Hart lane #2124,
                 Austin, TX 78731<br>
                 <strong>Contact</strong>: alex.jentsch@utexas.edu
-                <p>The covenant of marriage is one of the biggest decisions anyone will make throughout their life. If you have recently tied the knot or are engaged to be married, then this is the perfect group for you. Come discuss scripture and find fellowship with others in the same life stage.</p>
+                <p class="mc-desc">The covenant of marriage is one of the biggest decisions anyone will make throughout their life. If you have recently tied the knot or are engaged to be married, then this is the perfect group for you. Come discuss scripture and find fellowship with others in the same life stage.</p>
             </div>
             <div class="col-sm-4">
                 <h4>College Small Groups</h4>
@@ -51,7 +51,7 @@
                 <strong>Day / Time</strong>: Wednesdays @ 8:00pm<br>
                 <strong>Location</strong>: Varies (Check here for location)<br>
                 <strong>Contact</strong>: austinhill@utexas.edu
-                <p>These groups are specifically for college students looking for in depth community, accountability, an scripture. These groups meet on campus at the Texas Union together on Wednesday nights and then break up into small groups who will grow together in their knowledge of God as they study the Word.</p>
+                <p class="mc-desc">These groups are specifically for college students looking for in depth community, accountability, an scripture. These groups meet on campus at the Texas Union together on Wednesday nights and then break up into small groups who will grow together in their knowledge of God as they study the Word.</p>
             </div>
             <div class="col-sm-4">
                 <h4>Cross Cultural</h4>
@@ -59,7 +59,7 @@
                 <strong>Day / Time</strong>: Thursdays (Bi-Weekly) @ 7:00pm<br>
                 <strong>Location</strong>: 11117 Sandstone Trl Austin, TX 78750<br>
                 <strong>Contact</strong>: clintcagle@att.ne
-                <p>Small group in the North Austin area committed to reaching its neighbors. If you are passionate about reading scripture and want to work with others to pray for your neighbors and neighborhood, please join this group each Thursday night at 7PM.</p>
+                <p class="mc-desc">Small group in the North Austin area committed to reaching its neighbors. If you are passionate about reading scripture and want to work with others to pray for your neighbors and neighborhood, please join this group each Thursday night at 7PM.</p>
             </div>
         </div>
     </div>
@@ -80,7 +80,7 @@
                 <strong>Location</strong>: 7121 Hart lane #2124,
                 Austin, TX 78731<br>
                 <strong>Contact</strong>: alex.jentsch@utexas.edu
-                <p>The covenant of marriage is one of the biggest decisions anyone will make throughout their life. If you have recently tied the knot or are engaged to be married, then this is the perfect group for you. Come discuss scripture and find fellowship with others in the same life stage.</p>
+                <p class="mc-desc">The covenant of marriage is one of the biggest decisions anyone will make throughout their life. If you have recently tied the knot or are engaged to be married, then this is the perfect group for you. Come discuss scripture and find fellowship with others in the same life stage.</p>
             </div>
             <div class="col-sm-4">
                 <h4>College Small Groups</h4>
@@ -88,7 +88,7 @@
                 <strong>Day / Time</strong>: Wednesdays @ 8:00pm<br>
                 <strong>Location</strong>: Varies (Check here for location)<br>
                 <strong>Contact</strong>: austinhill@utexas.edu
-                <p>These groups are specifically for college students looking for in depth community, accountability, an scripture. These groups meet on campus at the Texas Union together on Wednesday nights and then break up into small groups who will grow together in their knowledge of God as they study the Word.</p>
+                <p class="mc-desc">These groups are specifically for college students looking for in depth community, accountability, an scripture. These groups meet on campus at the Texas Union together on Wednesday nights and then break up into small groups who will grow together in their knowledge of God as they study the Word.</p>
             </div>
             <div class="col-sm-4">
                 <h4>Cross Cultural</h4>
@@ -96,7 +96,7 @@
                 <strong>Day / Time</strong>: Thursdays (Bi-Weekly) @ 7:00pm<br>
                 <strong>Location</strong>: 11117 Sandstone Trl Austin, TX 78750<br>
                 <strong>Contact</strong>: clintcagle@att.ne
-                <p>Small group in the North Austin area committed to reaching its neighbors. If you are passionate about reading scripture and want to work with others to pray for your neighbors and neighborhood, please join this group each Thursday night at 7PM.</p>
+                <p class="mc-desc">Small group in the North Austin area committed to reaching its neighbors. If you are passionate about reading scripture and want to work with others to pray for your neighbors and neighborhood, please join this group each Thursday night at 7PM.</p>
             </div>
         </div>
     </div>

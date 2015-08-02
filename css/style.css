@@ -9,6 +9,8 @@ Light Gray: #8498A3
 
 /* CUSTOM STYLES */
 
+÷
+
 body {
     color: #5a5a5a;
 }
@@ -171,17 +173,20 @@ section.parallax-mc {
 
 .parallax h1, .parallax h2 {
     color: white;
-    margin-top: 190px;
+    margin-top: -120px;
+    position: relative;
+    z-index: 999;
+
 }
-/*
-.parallax::before {
+.parallax .container-fluid::before {
 content: " ";
 background: #000;
 opacity: .45;
 height: 350px;
 width: 100vw;
+    margin-top: -40px;
+    margin-left: -13px;
 }
-*/
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
