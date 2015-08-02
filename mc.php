@@ -21,10 +21,11 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 text-center">
-                <p class="lead">Midtown Church is a network of communities — small groups of 15-30 who get together at least weekly to connect like an extended family and grow in our love for God and people. Midtown Communities (MCs) are the primary way for people who are exploring Christianity to get connected to people who will love them and join with them in their journey.</p>
-
-                <p class="lead">Whether you consider yourself part of the Midtown family — or if you’re just checking out what it looks like to live as Jesus lived — it is our desire that everyone would be an active member in one of these communities that bring life, healing and growth.</p>
+            <div class="col-sm-6">
+                <p >Midtown Church is a network of communities — small groups of 15-30 who get together at least weekly to connect like an extended family and grow in our love for God and people. Midtown Communities (MCs) are the primary way for people who are exploring Christianity to get connected to people who will love them and join with them in their journey.</p>
+            </div>
+            <div class="col-sm-6">
+                <p>Whether you consider yourself part of the Midtown family — or if you’re just checking out what it looks like to live as Jesus lived — it is our desire that everyone would be an active member in one of these communities that bring life, healing and growth.</p>
             </div>
         </div>
     </div>
@@ -34,7 +35,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="h-lines hl-2">Get Connected</h2>
+                <h2 class="h-lines hl-2">Find a Group</h2>
             </div>
             <div class="col-sm-4">
                 <h4>Central Austin</h4>
