@@ -1,21 +1,35 @@
 <?php get_header(); ?>
-<div class="container">
+<!-- Page Heading -->
+<!-- Parallax Section -->
+<section class="parallax parallax-giving">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="text-center">
+                    <h1>
+                        <?php if ( is_day() ) : ?><?php printf( __( '<span>Daily Archive</span> %s' ), get_the_date() ); ?>
+                        <?php elseif ( is_month() ) : ?><?php printf( __( '<span>Monthly Archive</span> %s' ), get_the_date('F Y') ); ?>
+                        <?php elseif ( is_year() ) : ?><?php printf( __( '<span>Yearly Archive</span> %s' ), get_the_date('Y') ); ?>
+                        <?php elseif ( is_category() ) : ?><?php echo single_cat_title(); ?>
+                        <?php elseif ( is_search() ) : ?><?php printf( __( 'Search Results for: %s' ), '<span>' . get_search_query() . '</span>' ); ?>
+                        <?php elseif ( is_home() ) : ?>Latest Posts<?php else : ?>
+                        <?php endif; ?>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- /.page heading -->
+<div class="container blog">
+    <div class="row">
+
 <?php
 	if ( have_posts() )
 		the_post();
 ?>
     <div class="col-sm-8">
-    <h1>
-        <?php if ( is_day() ) : ?>
-            <?php printf( __( 'Daily Archives: <span>%s</span>' ), get_the_date() ); ?>
-        <?php elseif ( is_month() ) : ?>
-            <?php printf( __( 'Monthly Archives: <span>%s</span>' ), get_the_date('F Y') ); ?>
-        <?php elseif ( is_year() ) : ?>
-            <?php printf( __( 'Yearly Archives: <span>%s</span>' ), get_the_date('Y') ); ?>
-        <?php else : ?>
-            <?php _e( 'The Blog' ); ?>
-        <?php endif; ?>
-    </h1>
 
 <?php
 	/* Since we called the_post() above, we need to
@@ -36,6 +50,7 @@
         <?php dynamic_sidebar( 'Blog Sidebar 1' ); ?>
     </div>
 
+</div>
 </div>
 
 <?php get_footer(); ?>
