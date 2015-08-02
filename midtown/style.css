@@ -16,6 +16,13 @@ Light Gray: #8498A3
 
 /* CUSTOM STYLES */
 
+.white-logo {
+    content:url("assets/img/midtown-church-austin-logo-white-vector.svg");
+}
+.color-logo {
+    content:url("assets/img/midtown-church-austin-logo-vector.svg");
+}
+
 body {
     color: #5a5a5a;
 }
@@ -257,18 +264,7 @@ nav.shrink .navbar-brand img {
     -o-background-size: cover;
     background-size: cover;
 }
-.first-slide {
-    background:
-        linear-gradient(
-            rgba(255, 255, 255, 0.25),
-            rgba(255, 255, 255, 0.25)
-        ),
-        url(../img/central-austin-church-sunday-morning.jpg)
-        no-repeat center center;
-}
-.second-slide {
-    background: url(../img/midtown-church-austin-hill-country-central-merger.png) no-repeat center center;
-}
+
 .second-slide .btn {
     position: absolute;
     bottom: 10%;
