@@ -170,6 +170,9 @@ section.parallax-sunday {
 section.parallax-mc {
     background-image: url("https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xaf1/t31.0-8/s2048x2048/10256695_519143751529359_361980284696071893_o.jpg");
 }
+section.parallax-giving {
+    background-image: url("http://previews.123rf.com/images/foodandmore/foodandmore1404/foodandmore140400150/27619776-Old-weathered-rustic-wooden-background-texture-with-vintage-brown-wood-boards-with-an-uneven-row-of--Stock-Photo.jpg");
+}
 
 .parallax h1, .parallax h2 {
     color: white;
