@@ -2,13 +2,12 @@
 
 <!-- Page Heading -->
 <!-- Parallax Section -->
-
 <section class="parallax parallax-giving">
     <div class="container-fluid">
         <div class="row">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="shadow-text">Giving &mdash; An Act of Worship</h2>
+                    <h2>Giving &mdash; An Act of Worship</h2>
                 </div>
             </div>
         </div>

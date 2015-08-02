@@ -2,13 +2,12 @@
 
 <!-- Page Heading -->
 <!-- Parallax Section -->
-
 <section class="parallax parallax-mc">
     <div class="container-fluid">
         <div class="row">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="shadow-text">Midtown Communities</h2>
+                    <h2>Midtown Communities</h2>
                 </div>
             </div>
         </div>
