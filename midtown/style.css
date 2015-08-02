@@ -1,0 +1,224 @@
+/*
+
+Theme Name: Champion National Security
+Author: Jason Carroll
+Version: 1.0
+
+*/
+
+/* Logo Height on Scroll */
+.header.headhesive.headhesive--stick .logo img {
+    /*height: 28px;*/
+}
+
+.featured-section h2 {
+    color: white;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.circle-info {
+    top: 92px;
+}
+
+/* Home Slider Customization */
+.home-slider-wrapper {
+    border-top: 6px solid #d4d4d4;
+    border-bottom: 6px solid #d4d4d4;
+    position: relative;
+    background: #2f2f2f;
+    max-height: 495px;
+    overflow: hidden;
+}
+
+.home-slider-wrapper > div {
+    position: absolute;
+    z-index: 9;
+    top: 25%;
+    width: 100vw;
+    text-align: center;
+}
+
+@media screen and (min-width: 1970px) {
+    .home-slider-wrapper { max-height: 595px; }
+    .home-slider-wrapper > div { top: 15rem; }
+}
+
+.home-slider {
+    width: 100vw;
+    height: auto;
+}
+
+.home-slider-cap1,
+.home-slider-cap2 {
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    clear: both;
+    line-height: 7.7rem;
+}
+
+.home-slider-cap1 {
+    font-weight: bold;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 4.3rem;
+}
+
+
+.home-slider-cap2 span {
+    background-color: #fff;
+    color: #2f2f2f;
+    padding: .1em .5em;
+    font-size: 2.8rem;
+}
+@media screen and (max-width: 992px) {
+    .home-slider-cap1 { font-size: 3.3rem; }
+    .home-slider-cap2 span { font-size: 1.8rem; }
+    .home-slider-cap1, .home-slider-cap2 { line-height: 5.7rem; }
+}
+@media screen and (max-width: 767px) {
+    .home-slider-cap1 { font-size: 2.3rem; }
+    .home-slider-cap2 span { font-size: 1.5rem; }
+    .home-slider-cap1, .home-slider-cap2 { line-height: 4.2rem; }
+    .home-slider-wrapper { min-height: 240px; }
+    .home-slider {
+        height: 260px;
+        width: auto;
+        position: absolute;
+        right: -65px;
+    }
+}
+/* Featured Content Boxes */
+.featured-content {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    height: 205px;
+    width: 80%;
+    margin: 175px 10% 0 10%;
+    overflow: hidden;
+}
+.featured-content h2 {
+    color: #fff;
+    margin-bottom: 0;
+}
+.featured-item {
+    opacity: .5;
+    text-align: center;
+    font-weight: bold;
+}
+.featured-item:hover {
+    background: transparent;
+}
+
+/* Parallax Slider */
+.home-parallax {
+    perspective: 1px;
+    height: 450px;
+    width: 100vw;
+    left: 0;
+    clear: both;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #000;
+    display: inline-block;
+    margin: -340px 0 50px 0;
+}
+
+.parallax-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+}
+
+.parallax-layer img {
+    width: 100vw;
+    height: auto;
+    opacity: .65;
+}
+
+.home-parallax-fg {
+    transform: translateZ(0);
+}
+
+@media screen and (max-width: 991px) {
+    .featured-content {
+        height: 320px;
+        margin-top: 75px;
+    }
+    .featured-item { height: 150px; }
+    .home-parallax { margin-top: -385px; }
+    .parallax-layer img {
+        position: absolute;
+        right: -70px;
+        width: 120vw;
+    }
+}
+
+
+/* Jason Parallax */
+section.parallax {
+    height: 450px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: 66%;
+}
+section.parallax-1 {
+    background-image: url("https://www.champ.net/wp-content/uploads/2015/02/security-officer-on-patrol.jpg");
+}
+.parallax-1 .container {
+    position: relative;
+    z-index: 9;
+    margin-top: -340px;
+}
+.parallax-1 h2 {
+    color: white;
+}
+
+
+section.parallax::before {
+    content: " ";
+    background: #000;
+    opacity: .55;
+    height: 450px;
+    width: 100vw;
+    display: block;
+}
+
+/* Map styling */
+.home #map-canvas, .page-id-138 #map-canvas { height: 500px; margin: 0; padding: 0;}
+#map-canvas { height: 400px; margin: 0; padding: 0; }
+#map-canvas .row {
+    min-width: 350px;
+}
+#map-canvas .row img {
+    width: 130px;
+    height: auto;
+    max-height: 350px;
+}
+.gm-style-iw > div,
+.gm-style-iw > div > div {
+    overflow: hidden !important;
+}
+
+@media screen and (max-width: 768px) {
+    section.parallax { height: 765px; }
+    section.parallax::before { height: 765px; }
+    .parallax-1 .container { margin-top: -715px; }
+}
+
+/* Hide map features on home page */
+.home .wpgmza_sl_main_div, .home .wpgmza_marker_list_class {
+    display: none !important;
+}
+
+/* Home testimonial top margin */
+.home section.section-light {
+    margin-top: 0;
+}
