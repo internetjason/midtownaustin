@@ -160,7 +160,7 @@ section.parallax {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin-top: -170px;
+/*    margin-top: -170px;*/
 }
 section.parallax-sunday {
     background-image: url("http://antiochcc.com/wp-content/uploads/2014/03/Awaken_Day1_Worship_Antioch-Community-Church.jpg");

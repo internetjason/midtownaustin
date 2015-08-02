@@ -1,4 +1,4 @@
-<?php include('header2.html'); ?>
+<?php include('header.html'); ?>
 
 <!-- Page Heading -->
 <!-- Parallax Section -->
@@ -67,4 +67,4 @@
     </div>
 </section>
 
-<?php include('footer2.html'); ?>
+<?php include('footer.html'); ?>
