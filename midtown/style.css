@@ -62,8 +62,8 @@ h1, h2, h3 {
 }
 
 /* Heading Line Colors */
-.hl-1:before, .hl-1:after { background: #8498A3; }
-.hl-2:before, .hl-2:after { background: #156D66; }
+.hl-1:before, .hl-1:after { background: #8498A3; } /* Light Gray */
+.hl-2:before, .hl-2:after { background: #156D66; } /* Dark Teal */
 .hl-3:before, .hl-3:after { background: #fff; }
 
 .shadow-text  {
