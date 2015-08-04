@@ -45,7 +45,7 @@ jQuery(window).load(function() {
 			var posts = ' posts="' + inputPosts.val() + '"';
 		}
 
-		if(inputExcerpt.attr('checked')) {
+		if(inputImage.attr('checked')) {
 			var excerpt = ' excerpt="true"';
 		}
 
