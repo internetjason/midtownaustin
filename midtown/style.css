@@ -102,7 +102,9 @@ a:focus {
     color: #fff;
 }
 .bg-dark-teal h2, .bg-dark-teal h3,
-.bg-dark-teal h4, .bg-dark-teal h5 {
+.bg-dark-teal h4, .bg-dark-teal h5,
+.bg-dark-teal h2 a, .bg-dark-teal h3 a,
+.bg-dark-teal h4 a, .bg-dark-teal h5 a {
     color:white;
 }
 
