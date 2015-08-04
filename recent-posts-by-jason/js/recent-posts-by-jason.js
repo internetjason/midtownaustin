@@ -45,11 +45,11 @@ jQuery(window).load(function() {
 			var posts = ' posts="' + inputPosts.val() + '"';
 		}
 
-		if(inputImage.attr('checked')) {
+		if(inputExcerpt.attr('checked')) {
 			var excerpt = ' excerpt="true"';
 		}
 
-        if(inputExcerpt.attr('checked')) {
+        if(inputImage.attr('checked')) {
             var image = ' image="true"';
         }
 
