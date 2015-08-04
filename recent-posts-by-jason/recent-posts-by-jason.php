@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Recent Posts
+Plugin Name: Recent Posts by Jason
 Plugin URI: none
 Description: Displays recent posts from selected category by generating a shortcode that can be used in widgets, posts and pages.
 Version: 1.1.0
