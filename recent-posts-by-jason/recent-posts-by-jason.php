@@ -1,12 +1,12 @@
 <?php
 /*
-Plugin Name: Recent Posts by Jason Carroll
+Plugin Name: RecentPosts by Jason Carroll
 Plugin URI: none
 Description: Displays recent posts from selected category by generating a shortcode that can be used in widgets, posts and pages.
 Version: 1.1.0
 Author: Daniele De Santis - adapted by Jason
 Author URI: http://www.danieledesantis.net
-Text Domain: recent-posts-by-jason
+Text Domain: recent-posts-by-jason-carroll
 Domain Path: /languages/
 License: GPL2
 */
