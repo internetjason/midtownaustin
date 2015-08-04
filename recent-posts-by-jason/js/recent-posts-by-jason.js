@@ -70,7 +70,7 @@ jQuery(window).load(function() {
 		}
 
 		resultTitle.html('<strong>Copy and paste the shortcode below in your page, post or widget:</strong>')
-		result.html('[rpfc_recent_posts_from_category' + category + children + posts + excerpt + buttonclass + buttontext + image + meta + container + ']');
+		result.html('[rpbj_recent_posts_by_jason' + category + children + posts + excerpt + buttonclass + buttontext + image + meta + container + ']');
 	})
 
 });
