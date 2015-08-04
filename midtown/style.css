@@ -181,7 +181,7 @@ section.parallax {
     color: white;
     margin-top: -120px;
     position: relative;
-    z-index: 999;
+    z-index: 10;
 
 }
 .parallax .container-fluid::before {
