@@ -26,10 +26,10 @@ jQuery(window).load(function() {
 			children    =
 			posts	    =
 			excerpt     =
+            image       =
+            meta        =
             buttonclass =
             buttontext  =
-            image       =
-			meta	    =
 			container   =   ''
 		;
 
@@ -70,7 +70,7 @@ jQuery(window).load(function() {
 		}
 
 		resultTitle.html('<strong>Copy and paste the shortcode below in your page, post or widget:</strong>')
-		result.html('[rpbj_recent_posts_by_jason' + category + children + posts + excerpt + buttonclass + buttontext + image + meta + container + ']');
+        result.html('[rpbj' + category + children + posts + excerpt + image + meta + buttonclass + buttontext  + container + ']');
 	})
 
 });
