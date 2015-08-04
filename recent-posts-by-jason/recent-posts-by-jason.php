@@ -94,7 +94,7 @@ if(!class_exists('rpbj'))
 
         public function init() {
             load_plugin_textdomain( 'recent-posts-by-jason', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
-            add_shortcode('rpbj_recent_posts_by_jason', array(&$this, 'rpbj_recent_posts_by_jason_display'));
+            add_shortcode('rpbj', array(&$this, 'rpbj_recent_posts_by_jason_display'));
             add_filter('widget_text', 'do_shortcode');
         }
 
@@ -142,21 +142,16 @@ if(!class_exists('rpbj'))
 							<td><label for="display_author_date" style="display:block"><input type="checkbox" name="display_author_date" id="display_author_date" value="true"> Display</label>
 							</td>
 						</tr>
-
-
                         <tr valign="top">
 							<th scope="row">' . __('Button\'s class', 'recent-posts-by-jason') . '</th>
 							<td><label for="button_class" style="display:block"><input type="text" name="button_class" id="button_class"></label>
 							</td>
 						</tr>
-
                         <tr valign="top">
 							<th scope="row">' . __('Button text', 'recent-posts-by-jason') . '</th>
 							<td><label for="button_text" style="display:block"><input type="text" name="button_text" id="button_text"></label>
 							</td>
 						</tr>
-
-
 						<tr valign="top">
 							<th scope="row">' . __('Container\'s class', 'recent-posts-by-jason') . '</th>
 							<td><label for="container_class" style="display:block"><input type="text" name="container_class" id="container_class"></label>
@@ -170,7 +165,7 @@ if(!class_exists('rpbj'))
 				<p id="shortcode"></p>
 				<h3>' . __('Credits', 'recent-posts-by-jason') . '</h3>
 				<ul>
-					<li>' . __('"WP Recent Posts From Category" is a plugin by <a href="http://www.danieledesantis.net/" target="_blank" title="Daniele De Santis">Daniele De Santis</a>.', 'recent-posts-by-jason') . '</li>
+					<li>' . __('"RecentPosts By Jason" is a plugin by <a href="http://www.danieledesantis.net/" target="_blank" title="Daniele De Santis">Daniele De Santis</a> adapted by Jason Carroll.', 'recent-posts-by-jason') . '</li>
 				</ul>
 				</div>';
         }
