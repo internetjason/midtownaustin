@@ -39,6 +39,14 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+a {
+    color: #00A89D;
+}
+a:hover,
+a:focus {
+    color: #8498A3;
+}
+
 /* Horizontal Lines On Headings */
 .h-lines {
     display: inline-block;
