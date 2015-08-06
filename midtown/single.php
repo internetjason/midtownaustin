@@ -14,7 +14,7 @@
                         <?php elseif ( is_year() ) : ?>
                         <?php printf( __( 'Yearly Archives: <span>%s</span>' ), get_the_date('Y') ); ?>
                         <?php else : ?>
-                        <?php _e( 'The Blog' ); ?>
+                        <?php _e( 'News &amp; Events' ); ?>
                         <?php endif; ?>
                     </h1>
                 </div>
