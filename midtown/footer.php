@@ -5,7 +5,7 @@
                     <div class="col-sm-8">
                         <?php dynamic_sidebar( 'Footer Column 1' ); ?>
                     </div>
-                    <div class="col-sm-5 text-right">
+                    <div class="col-sm-4 text-right">
                         <?php dynamic_sidebar( 'Footer Column 2' ); ?>
                     </div>
                 </footer>
