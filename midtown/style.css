@@ -151,6 +151,11 @@ a:focus {
     margin-top: 20px;
 }
 
+.list-group-item {
+     background-color: transparent;
+     border: 0px;
+}
+
 #home-podcast-button {
     padding-top: 20px;
 }
