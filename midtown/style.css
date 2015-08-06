@@ -182,6 +182,11 @@ a:focus {
     bottom: 10%;
 }
 
+.page-id-1133 .panel-title a {
+    color: #156D66;
+    font-size: 2.5rem;
+}
+
 address {
     font-size: 2.0rem;
 }
