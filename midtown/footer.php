@@ -2,10 +2,10 @@
         <section class="footer">
             <div class="container">
                 <footer>
-                    <div class="col-sm-6">
+                    <div class="col-sm-8">
                         <?php dynamic_sidebar( 'Footer Column 1' ); ?>
                     </div>
-                    <div class="col-sm-6 text-right">
+                    <div class="col-sm-5 text-right">
                         <?php dynamic_sidebar( 'Footer Column 2' ); ?>
                     </div>
                 </footer>
