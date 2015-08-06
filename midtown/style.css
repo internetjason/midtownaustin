@@ -262,7 +262,6 @@ section.parallax {
     height: 350px;
     width: 100vw;
     margin-top: -40px;
-    margin-left: -30px;   
 }
 
 /* MAP */
@@ -429,11 +428,6 @@ nav.shrink .navbar-brand img {
 
     .footer span {
         font-size: 2.8rem;
-    }
-
-    /* Parallax  */
-    .parallax .container-fluid::before {
-        margin-left: -13px;
     }
 }
 
