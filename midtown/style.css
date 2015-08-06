@@ -253,6 +253,7 @@ section.parallax {
 .parallax .container-fluid {
     margin-left: -13px;
     padding; 0px;
+    overflow: hidden;
 }
 
 .parallax .container-fluid::before {
