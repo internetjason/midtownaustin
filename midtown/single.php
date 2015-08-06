@@ -36,7 +36,8 @@
                     <h1><?php the_title(); ?></h1>
                 </header>
 
-                <?php the_post_thumbnail('full');?>
+                <?php //the_post_thumbnail('full');?>
+                <img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>" class="img-responsive img-thumbnail">
 
                 <?php the_content(); ?>
 
