@@ -249,6 +249,12 @@ section.parallax {
     z-index: 10;
 
 }
+
+.parallax .container-fluid {
+    margin-left: -13px;
+    padding; 0px;
+}
+
 .parallax .container-fluid::before {
     content: " ";
     background: #000;
