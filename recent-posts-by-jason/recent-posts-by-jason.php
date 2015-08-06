@@ -87,7 +87,7 @@ if(!class_exists('rpbj'))
 
             wp_reset_postdata();
 
-            $output .= '</div>';
+            $output .= '';
 
             return $output;
         }
