@@ -76,7 +76,7 @@ if(!class_exists('rpbj'))
                 while ( $rpbj_query->have_posts() ) {
                     $rpbj_query->the_post();
                     $output .= '<div class="' . $container . '"><h4><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4>';
-                    if ($image) { $output .= '<p><img src="' . wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ) . '" class="img-responsive img-thumbnail"></p>'; };
+                    if ($image) { $output .= '<p><a href="' . get_permalink() . '"><img src="' . wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ) . '" class="img-responsive img-thumbnail"></a></p>'; };
                     if ($meta) { $output .= '<i class="fa fa-calendar"></i> <time class="podcast-meta">' . get_the_date() . '</time>'; };
                     if ($excerpt) { $output .= '<p>' . get_the_excerpt() . '</p>'; };
                     $output .= '<a href="' . get_permalink() . '" class="btn ' . $buttonclass . '">' . $buttontext .'</a>';
