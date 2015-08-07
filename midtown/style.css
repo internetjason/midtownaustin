@@ -475,14 +475,14 @@ nav.shrink .navbar-brand img {
         font-size: 2.5rem;
     }
     section.parallax {
-        height: 240px;
+        height: 200px;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
         /*    margin-top: -170px;*/
     }
     .parallax .container-fluid::before {
-        height: 200px;
+        height: 240px;
     }
     .parallax h1, .parallax h2 {
         margin-top: -60px;
