@@ -341,9 +341,10 @@ nav.shrink .navbar-brand img {
 
 .second-slide .btn {
     position: absolute;
-    bottom: 10%;
+    bottom: 12%;
     left: 30%;
     right: 30%;
+    padding: 8px 0px;
 }
 
 .carousel-caption {
