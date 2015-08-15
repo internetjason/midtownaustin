@@ -135,10 +135,10 @@ a:focus {
 .btn .fa {
     padding-right: 6px;
 }
-.btn-desktop {
+.btn-desktop, .div-desktop {
     display: inline-block;
 }
-.btn-mobile {
+.btn-mobile, .div-mobile {
     display: none;
 }
 
@@ -465,10 +465,10 @@ nav.shrink .navbar-brand img {
         font-size: 13px;
         line-height: 1.2;
     }
-    .btn-desktop {
+    .btn-desktop, .div-desktop {
         display: none;
     }
-    .btn-mobile {
+    .btn-mobile, .div-mobile {
         display: inline-block;
     }
 
