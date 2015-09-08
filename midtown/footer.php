@@ -16,8 +16,10 @@
 
         <!-- Javascript Files
         ================================================== -->
+<!--
         <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/jquery-1.11.0.min.js"></script>
         <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/jquery-migrate-1.2.1.min.js"></script>
+-->
         <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/bootstrap.js"></script>
 
         <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/custom.js"></script>

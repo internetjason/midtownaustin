@@ -24,7 +24,7 @@ if ( $paged >= 2 || $page >= 2 )
 <!--        <link rel="apple-touch-icon" href="<?php echo bloginfo('template_directory'); ?>/apple-touch-icon-precomposed.png"/>-->
 
         <!-- Stylesheets -->
-        <?php wp_deregister_script('jquery');wp_head(); ?>
+        <?php #wp_deregister_script('jquery');wp_head(); ?>
 
         <!-- Bootstrap -->
         <link href="<?php echo bloginfo('template_directory'); ?>/assets/css/bootstrap.css" rel="stylesheet">
@@ -37,6 +37,8 @@ if ( $paged >= 2 || $page >= 2 )
         <!-- Custom Google Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,400italic,700|Homenaje' rel='stylesheet' type='text/css'>
 
+
+        <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/jquery-1.11.0.min.js"></script>
     </head>
 
     <body <?php body_class(); ?> id="top">

@@ -133,18 +133,11 @@ remove_filter( 'the_content', 'wpautop' );
 
 remove_filter( 'the_excerpt', 'wpautop' );
 
-// Tidy up the <head> a little. Full reference of things you can show/remove is here: http://rjpargeter.com/2009/09/removing-wordpress-wp_head-elements/
-remove_action('wp_head', 'wp_generator');// Removes the WordPress version as a layer of simple security
-
 add_theme_support('post-thumbnails');
 
-// Enqueu Scripts
-//function champion_scripts() {
-//    // Add Genericons, used in the main stylesheet.
-//    wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), '1.0' );
-//
-//    // Add Genericons, used in the main stylesheet.
-//    wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/css/font-awesome.css', array(), '1.0' );
-//}
-//add_action( 'wp_enqueue_scripts', 'champion_scripts' );
+add_filter("gform_init_scripts_footer", "init_scripts");
+function init_scripts() {
+    return true;
+}
+
 ?>
