@@ -35,7 +35,7 @@ if ( $paged >= 2 || $page >= 2 )
         <link href="<?php echo bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
 
         <!-- Custom Google Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,400italic,700|Homenaje' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,400italic,700|Homenaje' rel='stylesheet' type='text/css'>
 
 
         <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/jquery-1.11.0.min.js"></script>

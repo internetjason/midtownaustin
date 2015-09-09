@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <!-- Page Heading -->
 <!-- Parallax Section -->
-<section class="parallax" style="background-image: url(http://www.midtownaustin.org/wp-content/uploads/midtown-church-page-header-background.jpg);">
+<section class="parallax" style="background-image: url(https://www.midtownaustin.org/wp-content/uploads/midtown-church-page-header-background.jpg);">
     <div class="container-fluid">
         <div class="row">
             <div class="container">
