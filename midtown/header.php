@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
     <head>
-        <title><?php
+<!--        <title><?php
 global $page, $paged;
 wp_title( '|', true, 'right' );
 bloginfo( 'name' );
@@ -12,7 +12,8 @@ if ( $site_description && ( is_home() || is_front_page() ) )
 if ( $paged >= 2 || $page >= 2 )
     echo ' | ' . sprintf( __( 'Page %s' ), max( $paged, $page ) );
             ?>
-        </title>
+        </title>-->
+	<title><?php wp_title(); ?> - <?php bloginfo( 'name' ); ?></title>
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -140,4 +140,60 @@ function init_scripts() {
     return true;
 }
 
+/**
+ * Display <title> in <head>
+ * Check for SEO Plug-ins if they are handling the matter
+ */
+function display_meta_title() {
+
+    echo "\t" . '<title>';
+
+    // If 3rd party plugin is in use, let it manage titles as they does great job!
+    if (
+        class_exists( 'All_in_One_SEO_Pack' ) ||
+        class_exists( 'Headspace_Plugin' ) ||
+        class_exists( 'WPSEO_Admin' ) ||
+        class_exists( 'WPSEO_Frontend' )
+    ) {
+        wp_title( '', true, 'right' );
+
+    }
+    else {
+
+        if ( is_home() || is_front_page() ) {
+
+            echo get_bloginfo( 'name', 'display' );
+
+            $this_desc = esc_attr( get_bloginfo( 'description', 'display' ) );
+
+            if ( $this_desc == 'Just another WordPress site' ) {
+                //Silence is golden - site has default description which we dont want to show
+            }
+            else {
+                //Proper site description in options
+                echo ' - ';
+                echo esc_attr( get_bloginfo( 'description', 'display' ) );
+            }
+        }
+
+        // If it's a feed, lets add that into the title
+        elseif ( is_feed() ) {
+            echo get_bloginfo( 'name', 'display' ) . ' feed';
+        }
+
+        elseif ( is_search() ) {
+            printf( __( 'Search results for  %1$s from %2$s', 'spyropress' ),
+                get_search_query(), get_bloginfo( 'name', 'display' ) );
+        }
+
+        //DEFAULT FALLBACK
+        else {
+            wp_title( ' - ', true, 'right' );
+            bloginfo( 'name' );
+        }
+    }
+
+    echo '</title>';
+    echo "\n";
+}
 ?>
