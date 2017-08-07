@@ -196,4 +196,11 @@ function display_meta_title() {
     echo '</title>';
     echo "\n";
 }
+
+// Add mp3 file type
+function my_myme_types($mime_types){
+	$mime_types['mp3'] = 'audio/mp3'; //Adding mp3 extension
+	return $mime_types;
+}
+add_filter('upload_mimes', 'my_myme_types', 1, 1);
 ?>
